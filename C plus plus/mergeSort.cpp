@@ -29,7 +29,7 @@ void merge(int *A, int l, int m, int r){
     for(i = 0; i<nL; i++){
         L[i] = A[l+i];
     }
-    for(j=0; j<nR; j++){
+    for(j = 0; j<nR; j++){
         R[j] = A[m+1+j];
     }
 
